@@ -8,30 +8,30 @@
 
 | Field | Value |
 |---|---|
-| **Phase** | Phase 0 — Foundations |
-| **Active Track** | Python Full Stack |
-| **Last Session** | October 17, 2026 |
-| **Overall Progress** | 12% |
-| **Python Progress** | Day 6 / 10 complete |
-| **DSA Progress** | Day 3 / 24 topics done |
-| **JavaScript Progress** | Day 2 / 10 complete |
+| **Phase** | Phase 0–2 — Foundations → Backend |
+| **Active Track** | Python Full Stack + DSA + JavaScript |
+| **Last Session** | October 19, 2026 |
+| **Overall Progress** | 30% |
+| **Python Progress** | Day 11 / 35 complete |
+| **DSA Progress** | Day 9 / 24 topics done |
+| **JavaScript Progress** | Day 5 / 10 complete |
 
 ---
 
 ## 📍 Where We Left Off
 
 ```
-PYTHON   : Day 06 — OOP (Classes, Inheritance, Encapsulation, Polymorphism)
-           Next up → Day 07: File I/O, try/except, Modules (os, json, datetime)
+PYTHON   : Day 11 — NumPy (Arrays, Broadcasting, Vectorized Ops, Linear Algebra)
+           Next up → Day 12: Pandas Part 1 (Series, DataFrame, read_csv, indexing)
 
-DSA      : Day 03 — Sliding Window (Longest Substring, Min Window, Permutation)
-           Next up → Day 04: Hashmaps (Valid Anagram, Group Anagrams, Top K)
+DSA      : Day 09 — Recursion & Backtracking (Subsets, Permutations, Word Search)
+           Next up → Day 10: Dynamic Programming Intro (Memoization, Tabulation)
 
-JS       : Day 02 — Arrays, Objects, Destructuring, Spread/Rest
-           Next up → Day 03: Async JS (Promises, async/await, Fetch API)
+JS       : Day 05 — ES6+ (Modules, Classes, Symbols, WeakMap, Generators)
+           Next up → Day 06: React Basics (Components, JSX, useState, useEffect)
 
-NOTES    : Repo fully restructured into 3 folders on Oct 17.
-           All Days 01-06 Python, Days 01-03 DSA, Days 01-02 JS pushed to GitHub.
+NOTES    : 5 new days pushed Oct 19.
+           Python Days 07-11, DSA Days 05-09, JS Days 04-05 now on GitHub.
 ```
 
 ---
@@ -66,23 +66,23 @@ Daily-Sprint/  (https://github.com/Vibhav-ux/Daily-Sprint)
 
 | Day | File in Repo | Topics | Status |
 |---|---|---|---|
-| 01 | `Day01_Variables_DataTypes.md` | Variables, 4 types, operators, if/elif/else | ✅ Done |
-| 02 | `Day02_Loops.md` | for, while, range, enumerate, break/continue, patterns | ✅ Done |
-| 03 | `Day03_DataStructures.md` | Lists, Tuples, Sets, Dictionaries (full) | ✅ Done |
-| 04 | `Day04_Strings.md` | All string methods, split/join, f-string formatting | ✅ Done |
-| 05 | `Day05_Functions.md` | def, return, *args, **kwargs, lambda, decorators, recursion | ✅ Done |
-| 06 | `Day06_OOP.md` | Classes, __init__, inheritance, encapsulation, polymorphism | ✅ Done |
-| 07 | `Day07_FileIO_Modules.md` | read/write files, try/except/finally, os/json/datetime | 🔲 Next |
-| 08 | `Day08_AdvancedPython.md` | asyncio, generators, type hints, context managers, dataclasses | 🔲 |
-| 09 | `Day09_FastAPI.md` | REST API, routes, Pydantic models, Swagger UI, CORS | 🔲 |
-| 10 | `Day10_PostgreSQL.md` | SQLAlchemy ORM, Alembic migrations, relationships, CRUD | 🔲 |
+| 01 | `Day01_Variables_DataTypes_Operators.md` | Variables, 4 types, operators, if/elif/else | ✅ Done |
+| 02 | `Day02_Loops_ControlFlow_Patterns.md` | for, while, range, enumerate, break/continue, patterns | ✅ Done |
+| 03 | `Day03_DataStructures_Lists_Tuples_Sets_Dicts.md` | Lists, Tuples, Sets, Dictionaries (full) | ✅ Done |
+| 04 | `Day04_Strings_Methods_Formatting.md` | All string methods, split/join, f-string formatting | ✅ Done |
+| 05 | `Day05_Functions_Args_Kwargs_Decorators_Lambda.md` | def, return, *args, **kwargs, lambda, decorators, recursion | ✅ Done |
+| 06 | `Day06_OOP_Classes_Inheritance_Polymorphism.md` | Classes, __init__, inheritance, encapsulation, polymorphism | ✅ Done |
+| 07 | `Day07_FileIO_Exceptions_Modules.md` | read/write files, try/except/finally, os/json/datetime | ✅ Done |
+| 08 | `Day08_AdvancedPython_Generators_Async_TypeHints.md` | asyncio, generators, type hints, context managers, dataclasses | ✅ Done |
+| 09 | `Day09_FastAPI_REST_API.md` | REST API, routes, Pydantic models, Swagger UI, CORS | ✅ Done |
+| 10 | `Day10_PostgreSQL_SQLAlchemy_ORM.md` | SQLAlchemy ORM, Alembic migrations, relationships, CRUD | ✅ Done |
 
 ### Phase 1: Data Analyst Track (Nov)
 
 | Day | File | Topics | Status |
 |---|---|---|---|
-| 11 | `Day11_NumPy.md` | Arrays, broadcasting, vectorized ops | 🔒 Locked |
-| 12 | `Day12_Pandas1.md` | Series, DataFrame, read_csv, indexing, filtering | 🔒 |
+| 11 | `Day11_NumPy_NumericalComputing.md` | Arrays, broadcasting, vectorized ops | ✅ Done |
+| 12 | `Day12_Pandas1.md` | Series, DataFrame, read_csv, indexing, filtering | 🔲 Next |
 | 13 | `Day13_Pandas2.md` | groupby, merge, pivot, apply, datetime | 🔒 |
 | 14 | `Day14_Matplotlib.md` | Line, bar, scatter, histogram, subplots | 🔒 |
 | 15 | `Day15_Seaborn_Plotly.md` | Heatmap, pairplot, interactive charts | 🔒 |
@@ -128,12 +128,12 @@ Daily-Sprint/  (https://github.com/Vibhav-ux/Daily-Sprint)
 
 | Day | File in Repo | Topics | Status |
 |---|---|---|---|
-| 01 | `Day01_JSBasics.md` | let/const, types, template literals, operators, functions, arrow | ✅ Done |
-| 02 | `Day02_Arrays_Objects.md` | map/filter/reduce, destructuring, spread/rest, method chaining | ✅ Done |
-| 03 | `Day03_AsyncJS.md` | Callbacks, Promises, async/await, Fetch API, error handling | 🔲 Next |
-| 04 | `Day04_DOM.md` | querySelector, events, classList, createElement, delegation | 🔲 |
-| 05 | `Day05_ES6Plus.md` | Modules, Classes, Symbol, WeakMap, generators | 🔲 |
-| 06 | `Day06_React_Basics.md` | Components, JSX, props, useState, useEffect | 🔲 |
+| 01 | `Day01_Basics_Variables_Functions_Arrow.md` | let/const, types, template literals, operators, functions, arrow | ✅ Done |
+| 02 | `Day02_Arrays_Objects_Destructuring_Spread.md` | map/filter/reduce, destructuring, spread/rest, method chaining | ✅ Done |
+| 03 | `Day03_AsyncJS_Promises_AsyncAwait_Fetch.md` | Callbacks, Promises, async/await, Fetch API, error handling | ✅ Done |
+| 04 | `Day04_DOM_Manipulation_Events.md` | querySelector, events, classList, createElement, delegation | ✅ Done |
+| 05 | `Day05_ES6Plus_Classes_Modules_Iterators.md` | Modules, Classes, Symbol, WeakMap, generators | ✅ Done |
+| 06 | `Day06_React_Basics.md` | Components, JSX, props, useState, useEffect | 🔲 Next |
 | 07 | `Day07_React_Advanced.md` | React Router, Context API, custom hooks, Zustand | 🔲 |
 | 08 | `Day08_Tailwind.md` | Setup, utilities, responsive, dark mode, animations | 🔲 |
 | 09 | `Day09_FetchAPIs.md` | REST, CRUD with fetch/axios, loading/error states | 🔲 |
@@ -150,22 +150,36 @@ Daily-Sprint/  (https://github.com/Vibhav-ux/Daily-Sprint)
 | 01 | Arrays | Two Sum | ✅ | ✅ | Easy |
 | 01 | Arrays | Contains Duplicate | ✅ | ✅ | Easy |
 | 01 | Arrays | Best Time Buy/Sell | ✅ | ✅ | Easy |
-| 01 | Arrays | Maximum Subarray | ✅ | ✅ | Medium |
-| 01 | Arrays | Product Except Self | ✅ | ✅ | Medium |
+| 01 | Arrays | Maximum Subarray (Kadane's) | ✅ | ✅ | Medium |
 | 02 | Two Pointers | Valid Palindrome | ✅ | ✅ | Easy |
 | 02 | Two Pointers | Two Sum II | ✅ | ✅ | Medium |
-| 02 | Two Pointers | 3Sum | ✅ | ✅ | Medium |
 | 02 | Two Pointers | Container With Most Water | ✅ | ✅ | Medium |
-| 02 | Two Pointers | Trapping Rain Water | ✅ | ✅ | Hard |
 | 03 | Sliding Window | Max Sum Subarray K | ✅ | ✅ | Easy |
 | 03 | Sliding Window | Longest No-Repeat Substring | ✅ | ✅ | Medium |
-| 03 | Sliding Window | Char Replacement | ✅ | ✅ | Medium |
-| 03 | Sliding Window | Permutation in String | ✅ | ✅ | Medium |
-| 03 | Sliding Window | Minimum Window Substring | ✅ | ✅ | Hard |
-| 04 | Hashmaps | Valid Anagram | 🔲 | 🔲 | Easy |
-| 04 | Hashmaps | Group Anagrams | 🔲 | 🔲 | Medium |
-| 04 | Hashmaps | Top K Frequent Elements | 🔲 | 🔲 | Medium |
-| 04 | Hashmaps | Longest Consecutive Sequence | 🔲 | 🔲 | Medium |
+| 04 | Hashmaps | Valid Anagram | ✅ | ✅ | Easy |
+| 04 | Hashmaps | Group Anagrams | ✅ | ✅ | Medium |
+| 04 | Hashmaps | Longest Consecutive Sequence | ✅ | ✅ | Medium |
+| 05 | Binary Search | Binary Search | ✅ | ✅ | Easy |
+| 05 | Binary Search | Search in Rotated Array | ✅ | ✅ | Medium |
+| 05 | Binary Search | Min in Rotated Array | ✅ | ✅ | Medium |
+| 05 | Binary Search | Find Peak Element | ✅ | ✅ | Medium |
+| 06 | Linked Lists | Reverse Linked List | ✅ | ✅ | Easy |
+| 06 | Linked Lists | Merge Two Sorted | ✅ | ✅ | Easy |
+| 06 | Linked Lists | Detect Cycle (Floyd's) | ✅ | ✅ | Medium |
+| 06 | Linked Lists | Find Middle | ✅ | ✅ | Easy |
+| 06 | Linked Lists | Remove Nth from End | ✅ | ✅ | Medium |
+| 07 | Stack | Valid Parentheses | ✅ | ✅ | Easy |
+| 07 | Stack | Min Stack | ✅ | ✅ | Medium |
+| 07 | Stack | Daily Temperatures | ✅ | ✅ | Medium |
+| 07 | Stack | Evaluate Reverse Polish Notation | ✅ | ✅ | Medium |
+| 08 | Trees | Max Depth Binary Tree | ✅ | ✅ | Easy |
+| 08 | Trees | Invert Binary Tree | ✅ | ✅ | Easy |
+| 08 | Trees | Level Order Traversal (BFS) | ✅ | ✅ | Medium |
+| 08 | Trees | Validate BST | ✅ | ✅ | Medium |
+| 09 | Backtracking | Subsets | ✅ | ✅ | Medium |
+| 09 | Backtracking | Combinations | ✅ | ✅ | Medium |
+| 09 | Backtracking | Permutations | ✅ | ✅ | Medium |
+| 09 | Backtracking | Word Search | ✅ | ✅ | Medium |
 | 05 | Binary Search | Binary Search | 🔲 | 🔲 | Easy |
 | 05 | Binary Search | Search in Rotated Array | 🔲 | 🔲 | Medium |
 | 05 | Binary Search | Min in Rotated Array | 🔲 | 🔲 | Medium |
