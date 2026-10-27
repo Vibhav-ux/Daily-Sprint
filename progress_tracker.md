@@ -8,30 +8,30 @@
 
 | Field | Value |
 |---|---|
-| **Phase** | Phase 0–2 — Foundations → Backend |
+| **Phase** | Phase 0–2 — Foundations → Backend → Data Analyst |
 | **Active Track** | Python Full Stack + DSA + JavaScript |
-| **Last Session** | October 19, 2026 |
-| **Overall Progress** | 30% |
-| **Python Progress** | Day 11 / 35 complete |
-| **DSA Progress** | Day 9 / 24 topics done |
-| **JavaScript Progress** | Day 5 / 10 complete |
+| **Last Session** | October 27, 2026 |
+| **Overall Progress** | 42% |
+| **Python Progress** | Day 14 / 35 complete |
+| **DSA Progress** | Day 12 / 24 topics done |
+| **JavaScript Progress** | Day 8 / 10 complete |
 
 ---
 
 ## 📍 Where We Left Off
 
 ```
-PYTHON   : Day 11 — NumPy (Arrays, Broadcasting, Vectorized Ops, Linear Algebra)
-           Next up → Day 12: Pandas Part 1 (Series, DataFrame, read_csv, indexing)
+PYTHON   : Day 14 — Matplotlib & Seaborn (Line, Bar, Scatter, Heatmap, Subplots)
+           Next up → Day 15: Seaborn Advanced + Plotly Interactive Charts
 
-DSA      : Day 09 — Recursion & Backtracking (Subsets, Permutations, Word Search)
-           Next up → Day 10: Dynamic Programming Intro (Memoization, Tabulation)
+DSA      : Day 12 — Graphs (BFS, DFS, Islands, Clone Graph, Cycle Detection)
+           Next up → Day 13: Heap / Priority Queue (Top-K, Merge K Lists)
 
-JS       : Day 05 — ES6+ (Modules, Classes, Symbols, WeakMap, Generators)
-           Next up → Day 06: React Basics (Components, JSX, useState, useEffect)
+JS       : Day 08 — Tailwind CSS (Utilities, Responsive, Dark Mode, Animations)
+           Next up → Day 09: Fetching APIs (axios, CRUD, loading/error states)
 
-NOTES    : 5 new days pushed Oct 19.
-           Python Days 07-11, DSA Days 05-09, JS Days 04-05 now on GitHub.
+NOTES    : 3 new days pushed Oct 27.
+           Python Days 12-14, DSA Days 10-12, JS Days 06-08 now on GitHub.
 ```
 
 ---
